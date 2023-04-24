@@ -3,11 +3,11 @@
 import snowflake.connector
 
 con = snowflake.connector.connect(
-    user='XXXX',
+    user='rotest',
     password='XXXX',
     account='QI42254.eu-west-2.aws',
-    role='XXXX',
-    database='XXXX',
+    role='rotest',
+    database='rotest',
     session_parameters={
         'QUERY_TAG': 'data-recruitment',
     }
@@ -16,7 +16,7 @@ con = snowflake.connector.connect(
 
 def main():
     print('Hello World!')
-    query_create_schema = 'create or replace schema test3;'
+    query_create_schema = 'create or replace schema test;'
     con.cursor().execute(query_create_schema)
 
 
