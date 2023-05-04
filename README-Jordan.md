@@ -32,3 +32,13 @@ _____________________________________________
 3. Minor Python related errors when running script. **Resolve:** Swift troubleshooting. 
 
 Note - this may have skewed some of the expected results from the queries. 
+
+____________________________________________
+____________________________________________
+
+Question 6, answer. 
+
+If we had supplier_address as a column, how would you create a pipeline to extract the postcodes as another column (supplier_postcode) in the dataset?
+
+1. Create a new column in the expenditure table to store the postcodes i.e. supplier_postcode of datatype VARCHAR(10).
+2. Edit the copy into script to use a function in the Python pipeline that extracts the postcode from the supplier_address column and stores this segmented data into the newly created column.
