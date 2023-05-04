@@ -28,3 +28,4 @@ _____________________________________________
 
 1. Forgot to specify role in the Snowflake connection, unable to run script for a little while (I suspected perhaps permissions based error at first) ~ 5-10 min delay. **Resolve**: Realised, and continued as normal. 
 2. The CSV file in the GIT repository had dates in Transaction Number column. **Resolve**:  ON_ERROR = CONTINUE (not neccesarily reccomended).
+3. Minor Python related errors when running script. Resolve: Swift troubleshooting. 
