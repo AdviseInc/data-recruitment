@@ -18,7 +18,7 @@ _____________________________________________
 **Instructions -**
 
 1. CSV file **must** be locally downloaded, and you must specify the file path of the CSV in the Python script in order to run the Python script. However, this script could function by creating a stage and uploading file elsewhere i.e. GCS buckets
-2. You must input neccesary Snowflake Connection credentials when running this script (I have removed my sensitive data i.e. user/pass from script)
+2. You must input neccesary Snowflake Connection credentials when running this script (I have removed my sensitive data i.e. user/pass from script). So you will need to update the script where there is "{placeholder} in the code. 
 
 
 _____________________________________________
