@@ -2,10 +2,8 @@
 # We provide a starting point for you to connect to Snowflake
 import snowflake.connector
 from snowflake.connector.pandas_tools import write_pandas
-from sqlalchemy import create_engine
 import pandas as pd
 import zipfile
-import time
 
 import os
 from dotenv import load_dotenv
